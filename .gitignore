@@ -1,0 +1,61 @@
+# ==============================
+# 🔒 SECRETS & ENVIRONMENT
+# ==============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+*.pem
+*.key
+*.crt
+config.json
+
+# ==============================
+# 📦 DEPENDENCIES & CACHES
+# ==============================
+node_modules/
+.vite/
+.cache/
+
+# ==============================
+# 🏗️ BUILD OUTPUTS
+# ==============================
+dist/
+dist-ssr/
+build/
+coverage/
+
+# ==============================
+# 🖼️ UPLOADS & LOGS
+# ==============================
+backend/uploads/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# 🗄️ DATABASE BACKUPS
+# ==============================
+*.sql
+*.bson
+dump/
+backups/
+
+# ==============================
+# 💻 EDITOR / OS FILES
+# ==============================
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
