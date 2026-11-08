@@ -134,7 +134,7 @@ export const BannerLines = () => {
 // Image cluster with rotating effect
 export const BannerCluster = ({ images }) => {
   return (
-    <div className="relative h-85 w-full max-w-130">
+    <div className="relative h-85 w-130 shrink-0 scale-[0.78] xl:scale-100">
       {/* Rotating image group */}
       <div className="absolute inset-0 animate-[spin_24s_linear_infinite]">
         {/* Imported SVG line design */}

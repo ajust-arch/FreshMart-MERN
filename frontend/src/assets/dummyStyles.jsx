@@ -81,7 +81,7 @@ export const bannerStyles = {
   },
 
   gridContainer:
-    "relative grid min-h-auto grid-cols-1 items-center gap-6 px-5 py-7 xl:min-h-95 xl:grid-cols-2 xl:px-12",
+    "relative grid min-h-auto grid-cols-1 items-center gap-6 px-5 py-7 lg:min-h-95 lg:grid-cols-2 lg:px-12",
   leftColumn: "relative z-10 space-y-4 text-white",
 
   badge:
@@ -110,7 +110,7 @@ export const bannerStyles = {
     "font-store-label flex items-center gap-2 pt-1 text-sm font-bold text-white/70",
   starIcon: "h-4 w-4 fill-yellow-300 text-yellow-300",
 
-  rightColumn: "relative z-10 hidden min-h-80 items-center justify-center xl:flex",
+  rightColumn: "relative z-10 hidden min-h-80 items-center justify-center lg:flex",
 };
 
 

@@ -33,7 +33,7 @@ const Footer = ()=>{
 const footerCategories =[
     {name: "Hookah",href:"/hookah-products"},
     ...categories.map((category)=>({
-        name:category.name,
+            name: category.categoryName,
         href:`/product/${encodeURIComponent(category.categoryName)}`,
     })),
 ];
@@ -172,7 +172,7 @@ return(
                 rel="noreferrer"
                 className={s.designerLink}
               >
-                Hexagon Digital Services
+                Syed Abdullah Services
                 <ArrowUpRight className={s.designerArrow} />
               </a>
             </div>
