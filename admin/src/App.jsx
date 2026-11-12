@@ -50,7 +50,7 @@ const App=()=>{
                <Route path="/dashboard" element={<ProtectedRoute><Home/></ProtectedRoute>}/>
                <Route path="/add-items" element={<ProtectedRoute><AddItems/></ProtectedRoute>}/>   
                <Route path="/add-item" element={<ProtectedRoute><AddItems/></ProtectedRoute>}/>  
-    <Route path="/orders" element={<ProtectedRoute><Orders/></ProtectedRoute>}/> 
+    
     <Route path="/item-list" element={<ProtectedRoute><ItemList/></ProtectedRoute>}/> 
     <Route path="/add-hookah" element={<ProtectedRoute><AddHookah/></ProtectedRoute>}/> 
     <Route path="/hookah-list" element={<ProtectedRoute><HookahList/></ProtectedRoute>}/> 
