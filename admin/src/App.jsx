@@ -2,7 +2,6 @@ import { useLayoutEffect } from "react";
 import { Navigate,Route,Routes,useLocation } from "react-router-dom";
 import Login from "./components/pages/Login";
 import AddItems from "./components/pages/AddItems/AddItems";
-import Orders from "./components/pages/Orders/orders";
 import ItemList from "./components/pages/ItemList/ItemList";
 import HookahList from "./components/pages/HookahList/HookahList";
 import AddHookah from "./components/pages/AddHookah/AddHookah";
