@@ -1,4 +1,4 @@
-export const adminMiddleware = (req, res, next) => { // ✅ Added 'next' here!
+export const adminMiddleware = (req, res, next) => { 
     try {
         
         if (!req.user) {
@@ -15,7 +15,7 @@ export const adminMiddleware = (req, res, next) => { // ✅ Added 'next' here!
             });
         }
 
-        next(); // ✅ Now Express knows what to do!
+        next(); 
         
     } catch (error) {
         res.status(500).json({
